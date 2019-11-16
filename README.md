@@ -27,9 +27,11 @@ The following sections shows the cases and the bugs that were found for each ser
 
 How to run it
 
-Just use the command pytest
+The application should be run it before to start the automation project
 
-It also contains a report generator with allure, toy can generate it writing the following commands:
+Use the command pytest
+
+It also contains a report generator with allure, you can generate it writing the following commands:
 
 pytest --alluredir=/tmp/my_allure_results
 allure serve /tmp/my_allure_results
